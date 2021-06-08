@@ -1,0 +1,8 @@
+Host name-of-the-Host
+    Hostname your-server-ip-or-domain
+    User your-working-User
+
+# You can use wildcard like asterisk, so it applies to every SSH connections
+Host *
+    User if-you-have-every-username-the-same-on-your-server
+    Port 22
